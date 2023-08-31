@@ -20,6 +20,7 @@ var senha = "Dina12345";
 console.log(senha.length);
 
 //TYPE Boolean (TRUE-Verdadeiro/FALSE-Falso)
+//0->false AND 1->true
 const numero1 = 5;
 const numero2 = 10;
 console.log(numero1 === numero2); //Retorna false, pq não são iguais!
@@ -32,3 +33,22 @@ console.log(number1 === number2); //Retorna true, pq são iguais e do mesmo tipo
 // = Atribuindo Valor
 // == Comparando Valores
 // === Comparando valores idênticos e do mesmo tipo!
+
+
+//TRUE(1) - FALSE(0)
+console.log(1 == true);//retorna true, pq o 1 e o msm que true!
+console.log(0 == false);//retorna true, pq o 0 e o msm que false!
+console.log('' == false);;//retorna true, pq a string vazia e o msm que false!
+
+// null==>vazio ou nada - null é do tipo object 
+let minhaVar; //undefined
+let varNull = null;//null
+console.log(minhaVar);
+console.log(varNull);
+
+//typeof -> é uma palavra chave que serve para perguntarmos ao JavaScript qual é o tipo de dado que está sendo guardado nessa variável.
+let numero = 5;
+let texto= 'Dina';
+console.log(typeof numero);
+console.log(typeof texto);
+
